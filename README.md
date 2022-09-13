@@ -1,5 +1,5 @@
 
-# Projeto Final - Projeto Integrado IV UNOPAR
+# Projeto Final Desenvolvimento Web -  Projeto Integrado IV UNOPAR
 
 O presente projeto tem por objetivo desenvolver atividades
 afim de demonstrar os conhecimentos obtidos no curso superior de
