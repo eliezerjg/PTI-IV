@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <title>Página HTML formulario</title>
+    </head>
+    <body>
+ 
+ 
+ 
+ 
+      <div class="container">
+           
+ 
+       
+ 
+            <article class="article">
+ 
+                <form action="bemvindo.html" method="post">
+ 
+                      <label for="email"><b>Usuario</b></label>
+                      <input id="email" type="email" placeholder="Email" name="email" required><BR>
+                 
+                      <label for="senha"><b>Password</b></label>
+                      <input id="senha" type="password" placeholder="Senha" name="senha" required><BR>
+                         
+                      <button type="submit">Login</button>
+                   
+                 
+                   
+                      <button type="button" class="cancelbtn" onclick="limpar();">Cancelar</button><BR>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                   
+                </form>
+ 
+ 
+            </article>
+ 
+           
+      </div>  
+ 
+    </body>
+ 
+ 
+    <script>
+       
+       function limpar(){
+        const email = document.getElementById('email');
+        const senha = document.getElementById('senha');
+        email.value = "";
+        senha.value = "";
+       }
+       
+   
+  </script>
+</html>
