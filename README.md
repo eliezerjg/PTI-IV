@@ -18,4 +18,4 @@ Os Web Services tem por objetivo disponibilizar recursos de forma simples por me
 apenas a ideia principal do protocolo REST, onde será feito uma pseudo autenticação por meio do verbo HTTP Post. Pois é um requisito do referido trabalho, considerando que o curso tem ênfase em desenvolvimento FrontEnd.
 
 ## Aos colegas
-Peço encarecidamente que os colegam não simplesmente copiem o projeto, entendam o conceito, apliquem e repliquem para seus devidos projetos. Caso necessário façam as devidas referências para evitar plágio.
+Peço encarecidamente que os colegam não simplesmente copiem o projeto, entendam o conceito, apliquem e repliquem de forma diferenciada para seus devidos projetos. Caso necessário façam as devidas referências para evitar plágio.
