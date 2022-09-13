@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <head>
+        <title>Página HTML com 2 breakpoints</title>
+        <link href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    </head>
+    <body>
+      <style>
+       
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+       
+        @media (orientation: landscape) {
+                .menu-portretrait,.p-retrato{
+                    display: none;
+                }
+                .menu-landscape{
+                    font-size: 2vw;
+                    border: 1px solid black;
+                    width: 100vw;
+                    height: 6vh;
+                }
+                .lnk-menu{
+                    float: left;
+                    spacing: 4%;
+                    text-decoration: none;
+                    margin-left: 4%;
+                }
+               
+                .brand{
+                    float: left;
+                margin-right: 4%;
+                }
+                hr{
+                    width: 100vw;
+                }
+ 
+                nav{
+                    width: 80vw;
+                }
+        }
+ 
+        @media (orientation: portrait) {
+            .menu-landscape,.p-paisagem{
+                display: none;
+            }
+            .menu-portretrait{
+                float: left;
+                font-size: 6vw;
+                border: 1px solid black;
+                width: 20vw;
+                height: 100vh;
+            }
+ 
+            .lnk-menu{
+                    float: left;
+                    spacing: 4%;
+                    text-decoration: none;
+                    margin-left: 4%;
+                }
+ 
+            .itens{
+                text-align: center;
+            }
+            .burguer{
+                font-size: 40px !important;
+            }
+ 
+        }
+        article{
+            float: left;
+            text-align: justify;
+            width: 70vw;
+        }
+ 
+       
+       
+       
+       
+   
+       
+           
+     
+      </style>
+ 
+ 
+ 
+      <div class="container">
+            <div class="menu-landscape">
+                <nav>
+                    <a class="brand" href="#">Menu Horizontal</a>
+                    <a class="lnk-menu" href="#">Item 2</a>
+                    <a class="lnk-menu" href="#">Item 3</a>
+                    <a class="lnk-menu" href="#">Item 4</a>
+                    <a class="lnk-menu" href="#">Item 5</a>
+                </nav>
+            </div>
+ 
+            <aside id="aside" class="menu-portretrait w-20">
+                <nav class="itens left w-90 h-20">
+                    <i id="btn" class="fa-solid fa-burger burguer" ></i>
+                    <div id="itens-modo-retrato">
+                        <a id="lnk-menu" class="lnk-menu" href="#">Item 2</a>
+                        <a id="lnk-menu" class="lnk-menu" href="#">Item 3</a>
+                        <a id="lnk-menu" class="lnk-menu" href="#">Item 4</a>
+                        <a id="lnk-menu" class="lnk-menu" href="#">Item 5</a>
+                    </div>
+                </nav>
+            </aside>
+ 
+            <article class="article">
+                <p class="p-retrato">Você está em modo: retrato</p>
+                <p class="p-paisagem">Você está em modo: paisagem</p>
+                <hr/>
+ 
+                <h1>Página em HTML5 com 2 breakpoints:</h1>
+                <p>*Modo retrato</p>
+                <p>*Modo paisagem</p>
+ 
+ 
+ 
+            </article>
+ 
+           
+      </div>  
+ 
+    </body>
+ 
+ 
+    <script>
+       
+        const btn = document.getElementById('btn');
+        const lnk = document.getElementById('itens-modo-retrato');
+        const aside = document.getElementById('aside');
+ 
+        btn.addEventListener('click', function handleClick() {
+        if (lnk.style.display === 'none') {
+            lnk.style.display = 'block';
+            aside.style.width = '20vw';
+ 
+        } else {
+            lnk.style.display = 'none';
+            aside.style.width = '15vw';
+        }
+        });
+   
+  </script>
+</html>
