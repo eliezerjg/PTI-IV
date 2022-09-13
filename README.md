@@ -10,8 +10,9 @@ Foi utilizado no projeto o conceito básico de banco de dados relacional, desenv
 Os relacionamentos são explicados utilizando-se do modelo MER (modelo entidade relacionamento).
  
 ## FrontEnd
-No projeto foi utilizado HTML5, tendo como objetivo apresentar o desenvolvimento de media queries e breakpoints. Além disso
-foi aplicado o conceito de menu hamburguer utilizando recursos da linguagem Javascript como por exemplo listeners.
+No projeto foi utilizado HTML5 e CSS3, tendo como objetivo aplicar o conhecimento obtido pelas aulas da Unopar,como por exemplo: o desenvolvimento de media queries e breakpoints. Além disso
+foi aplicado o conceito de menu hamburguer utilizando recursos da linguagem Javascript como por exemplo listeners. 
+
 ## Web Services
 Os Web Services tem por objetivo disponibilizar recursos de forma simples por meio do protocolo HTTP. Nesse trabalho foi implementado
 apenas a ideia principal do protocolo REST, onde será feito uma pseudo autenticação por meio do verbo HTTP Post. Pois é um requisito do referido trabalho, considerando que o curso tem ênfase em desenvolvimento FrontEnd.
