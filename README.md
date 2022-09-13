@@ -1,5 +1,5 @@
 
-# Projeto Final Desenvolvimento Web -  Portfólio Interdisciplinar Individual IV UNOPAR
+# Projeto Final Desenvolvimento Web -  PTI IV UNOPAR
 
 O presente projeto tem por objetivo desenvolver atividades
 afim de demonstrar os conhecimentos obtidos no curso superior de
