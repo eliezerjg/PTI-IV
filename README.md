@@ -17,5 +17,3 @@ foi aplicado o conceito de menu hamburguer utilizando recursos da linguagem Java
 Os Web Services tem por objetivo disponibilizar recursos de forma simples por meio do protocolo HTTP. Nesse trabalho foi implementado
 apenas a ideia principal do protocolo REST, onde será feito uma pseudo autenticação por meio do verbo HTTP Post. Pois é um requisito do referido trabalho, considerando que o curso tem ênfase em desenvolvimento FrontEnd.
 
-## Aos colegas
-Peço encarecidamente que entendam o conceito, apliquem e utilizem de forma diferenciada para seus devidos projetos. Caso necessário façam as devidas referências para evitar plágio.
